@@ -1,0 +1,404 @@
+html {
+    font-family: sans-serif;
+    font-size: 1.3em;
+}
+
+body {
+    background-image: url(../img/bluewave.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0 0;
+}
+
+/* CSS for nav bar and footer page*/
+
+nav {
+    margin: 0 auto;
+    background-color: #212029;
+}
+
+nav ol {
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ol li {
+    flex: 1;
+    display: inline-block;
+    padding: 2px 30px;
+}
+
+nav ol li a {
+    color: #F9F5FF;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 3vh;
+}
+
+nav ol li a:hover {
+    color: #FAC748;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+header {
+    width: 80%;
+    margin: 0;
+    padding: 20px;
+}
+
+#title {
+    display: block;
+    color: #FAC748;
+    font-size: 10vh;
+    margin: 0px 0px;
+    font-weight: bold;
+    padding: 35px 55px;
+}
+
+.dogs-running {
+    display: inline-block;
+    margin: auto;
+    max-width: 30%;
+}
+
+footer {
+    height: 80px;
+    background-color: #212029;
+}
+
+footer ol {
+    margin: 0;
+    padding: 20px 15px;
+    display: flex;
+}
+
+footer ol li {
+    flex: 1;
+    display: inline-block;
+    padding: 2px 30px;
+}
+
+footer ol li a {
+    color: rgb(188, 189, 204);
+    text-decoration: none;
+}
+
+footer ol li a:hover {
+    color: #FAC748;
+}
+
+/* CSS for Home page*/
+
+main {
+    background-color:#4a7a9d93;
+    padding: 10px 35px;
+}
+
+main h1 {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 10px 60px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px #212029;
+    font-size: 5vh;
+    margin: 12px 0;
+    font-family: "Courier New", monospace;
+}
+
+main p {
+    color: #13131c;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+}
+
+.welcome {
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 10px 40px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px #212029;
+    display: flex;
+    flex: 2;
+    margin: 12px 0;
+}
+
+.welcome div {
+    margin: 0px;
+    padding: 15px;
+}
+
+.profilepic {
+    border: 5px #222;
+    border-radius: 30px;
+    max-width: 200px;
+    min-width: none;
+    min-height: 220px;
+}
+
+#totoro {
+    float: left;
+    max-width: 100px;
+    min-width: none;
+    min-height: 100px;
+}
+
+hr {
+    border: 1px solid transparent;
+    height: 5px;
+}
+
+.Latestnews {
+    color: #F9F5FF;
+    margin: 0px 0px;
+    padding: 2px 20px;
+    background-color: #4a7a9d93;
+}
+
+.Latestnews h2 {
+    font-size: 5vh;
+    padding: 0px 20px;
+    margin: 20px 0;
+    color: #FAC748;
+}
+
+.Obsessions {
+    display: flex;
+    flex: 20;
+    margin: 20px 0;
+}
+
+.Obsessions div {
+    border: 2px solid #212029;
+    border-radius: 30px;
+    margin: 0px 20px;
+    padding: 15px;
+}
+
+.Obsessions a {
+    color: #F9F5FF;
+    text-decoration: none;
+}
+
+#song {
+    border: 5px #222;
+    border-radius: 20px;
+}
+
+#cafe {
+    border: 5px #222;
+    border-radius: 20px;
+}
+
+#game {
+    border: 5px #222;
+    border-radius: 20px;
+}
+
+/* CSS for About page*/
+
+.cat-tap {
+    display: inline-block;
+    margin: 0;
+    height: 8vh;
+    width: 10vh;
+}
+
+.wrapper h1 {
+    color: #F9F5FF;
+    background-color: #4A7B9D;
+    border: 1px solid #212029;
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-size: 5vh;
+    font-family: sans-serif;
+}
+
+.wrapper p {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 64px 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-size: 3vh;
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex div {
+    flex: 20;
+    margin: 20px;
+}
+
+.flex h1 {
+    color: #F9F5FF;
+    background-color: #4A7B9D;
+    border: 1px solid #212029;
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-size: 5vh;
+}
+
+.flex p {
+    color: #212029;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 64px 40px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-size: 3vh;
+}
+
+.flex a {
+    color: #13131c;
+    text-decoration: none;
+}
+
+/* CSS for Contact page*/
+
+.fish {
+    display: inline-block;
+    margin: 0;
+    height: 11vh;
+    width: 10vh;
+}
+
+#firstname, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #212029;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+#lastname, select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #212029;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+  
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+}
+
+.container p {
+    margin: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    align-items: safe;
+}
+
+.contact div {
+    flex: 20;
+    margin: 20px;
+}
+
+.contact div a {
+    color: #4A7B9D;
+    text-decoration: none;
+}
+
+.contact div a:hover {
+    color: #FAC748;
+}
+  
+#message {
+    height: 170px;
+    width: 300px;
+}
+
+/* CSS for Artwork page*/
+
+.artwork h2 {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 20px 60px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px #212029;
+    margin: 12px 20px;
+    font-family: sans-serif;
+}
+
+.artworkgrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: fit-content;
+}
+
+/* CSS for Photography page*/
+
+.photo h2 {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 20px 60px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px #212029;
+    margin: 12px 20px;
+    font-family: sans-serif;
+}
+
+.photogrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: fit-content;
+}
+
+/* CSS for Graphic page*/
+
+.graphic h2 {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 20px 60px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 1px #212029;
+    margin: 12px 20px;
+    font-family: sans-serif;
+}
+
+.graphicgrid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+    height: fit-content;
+}
