@@ -5,6 +5,8 @@
 <meta charset="UTF-8">
 <meta name="description" content="Action destination">
 <link href="css/style.css" rel="stylesheet" type="text/css">
+<link rel="icon" type="image/x-icon" href="/img/profileicon.png">
+
 
 </head>
 
