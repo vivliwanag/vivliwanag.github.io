@@ -340,6 +340,11 @@ input[type=submit]:hover {
     width: 300px;
 }
 
+.contactimages {
+    display: flex;
+    flex-direction: row;
+}
+
 /* CSS for Artwork page*/
 
 .artwork h2 {
