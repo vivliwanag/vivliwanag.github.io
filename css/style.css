@@ -343,6 +343,7 @@ input[type=submit]:hover {
 .contactimages {
     display: flex;
     flex-direction: row;
+    margin: 20px;
 }
 
 /* CSS for Artwork page*/
