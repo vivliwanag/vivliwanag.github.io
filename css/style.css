@@ -323,7 +323,7 @@ input[type=submit]:hover {
 
 .contact div {
     flex: 20;
-    margin: 20px;
+    padding: 20px;
 }
 
 .contact div a {
@@ -343,7 +343,14 @@ input[type=submit]:hover {
 .contactimages {
     display: flex;
     flex-direction: row;
-    margin: 20px;
+    margin: 0;
+}
+
+.contactimages ol li {
+    list-style: none;
+    text-decoration: none;
+    padding: 40px 0px;
+    align-items: start;
 }
 
 /* CSS for Artwork page*/
