@@ -409,3 +409,59 @@ input[type=submit]:hover {
     column-gap: 5px;
     height: fit-content;
 }
+
+/* CSS for Video page*/
+
+.cat-tap {
+    display: inline-block;
+    margin: 0;
+    height: 8vh;
+    width: 10vh;
+}
+
+.vidabout {
+    margin: auto;
+    padding: 10px 35px;
+}
+
+.vidabout h1 {
+    color: #F9F5FF;
+    background-color: #4A7B9D;
+    border: 1px solid #212029;
+    padding: 10px 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-family: sans-serif;
+    margin: 12px 0;
+}
+
+.vidabout p {
+    color: #13131c;
+    background-color: #F9F5FF;
+    border: 1px solid #212029;
+    padding: 30px 50px;
+    border-radius: 50px;
+    box-shadow: 2px 2px 1px #212029;
+    font-family: sans-serif;
+    margin: 12px 0;
+}
+
+.video {
+    margin: 0px 0px;
+    padding: 20px 20px;
+    background-color: #4a7a9d93;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.video div {
+    border: 2px solid #212029;
+    border-radius: 30px;
+    margin: 20px 20px;
+    padding: 15px;
+}
+
+.video a {
+    color: #F9F5FF;
+    text-decoration: none;
+}
