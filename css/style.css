@@ -96,6 +96,7 @@ footer ol li a:hover {
 
 main {
     background-color:#4a7a9d93;
+    margin: auto;
     padding: 10px 35px;
 }
 
@@ -218,6 +219,7 @@ hr {
     box-shadow: 2px 2px 1px #212029;
     font-size: 5vh;
     font-family: sans-serif;
+    margin: 12px 0;
 }
 
 .wrapper p {
@@ -229,6 +231,7 @@ hr {
     box-shadow: 2px 2px 1px #212029;
     font-size: 3vh;
     font-family: sans-serif;
+    margin: 12px 0;
 }
 
 .flex {
