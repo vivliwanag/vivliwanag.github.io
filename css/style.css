@@ -210,61 +210,52 @@ hr {
     width: 10vh;
 }
 
-.wrapper h1 {
+.about {
+    margin: auto;
+    padding: 10px 35px;
+}
+
+.about h1 {
     color: #F9F5FF;
     background-color: #4A7B9D;
     border: 1px solid #212029;
     padding: 10px 50px;
     border-radius: 50px;
     box-shadow: 2px 2px 1px #212029;
-    font-size: 5vh;
     font-family: sans-serif;
     margin: 12px 0;
 }
 
-.wrapper p {
+.about p {
     color: #13131c;
     background-color: #F9F5FF;
     border: 1px solid #212029;
-    padding: 64px 40px;
+    padding: 30px 50px;
     border-radius: 50px;
     box-shadow: 2px 2px 1px #212029;
-    font-size: 3vh;
     font-family: sans-serif;
     margin: 12px 0;
 }
 
-.flex {
+.resume {
     display: flex;
+    margin: 0px 0px;
+    padding: 20px 20px;
+    background-color: #4a7a9d93;
+    align-items: flex-start;
+    justify-content: space-between;
 }
 
-.flex div {
-    flex: 20;
-    margin: 20px;
+.resume div {
+    flex: 1;
+    border: 2px solid #212029;
+    border-radius: 30px;
+    margin: 0px 20px;
+    padding: 15px;
 }
 
-.flex h1 {
+.resume a {
     color: #F9F5FF;
-    background-color: #4A7B9D;
-    border: 1px solid #212029;
-    padding: 10px 50px;
-    border-radius: 50px;
-    box-shadow: 2px 2px 1px #212029;
-    font-size: 5vh;
-}
-
-.flex p {
-    color: #212029;
-    background-color: #F9F5FF;
-    border: 1px solid #212029;
-    padding: 64px 40px;
-    border-radius: 50px;
-    box-shadow: 2px 2px 1px #212029;
-    font-size: 3vh;
-}
-
-.flex a {
-    color: #13131c;
     text-decoration: none;
 }
 
