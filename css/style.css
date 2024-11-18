@@ -259,6 +259,28 @@ hr {
     text-decoration: none;
 }
 
+.resume2 {
+    display: flex;
+    margin: 0px 0px;
+    padding: 20px 20px;
+    background-color: #4a7a9d93;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.resume2 div {
+    flex: 1;
+    border: 2px solid #212029;
+    border-radius: 30px;
+    margin: 0px 20px;
+    padding: 15px;
+}
+
+.resume2 a {
+    color: #F9F5FF;
+    text-decoration: none;
+}
+
 /* CSS for Contact page*/
 
 .fish {
